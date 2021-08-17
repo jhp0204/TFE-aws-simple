@@ -15,6 +15,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "github.com/jhp0204/terraform-aws-simple/vpc/"
+  source = "github.com/jhp0204/TFE-aws-simple/tree/master/vpc"
+  # source = "github.com/jhp0204/terraform-aws-simple/vpc/"
 }
 
